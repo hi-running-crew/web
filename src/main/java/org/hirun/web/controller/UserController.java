@@ -8,8 +8,7 @@ import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
 @RestController
-public class ExampleController {
-
+public class UserController {
 	private final UserService userService;
 
 	@GetMapping
