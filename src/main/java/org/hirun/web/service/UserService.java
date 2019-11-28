@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class UserService {
-	public User get() {
-		return new User("이경태", 28);
-	}
+    public User get() {
+        return new User("이경태", 28);
+    }
 }

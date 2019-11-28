@@ -9,10 +9,10 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 @RestController
 public class UserController {
-	private final UserService userService;
+    private final UserService userService;
 
-	@GetMapping
-	String test() {
-		return userService.get().getName();
-	}
+    @GetMapping
+    String get() {
+        return userService.get().toString();
+    }
 }
